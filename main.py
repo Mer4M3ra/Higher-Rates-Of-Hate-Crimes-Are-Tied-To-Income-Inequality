@@ -5,11 +5,14 @@ from data_module import (
     update_data_entry,
     save_changes
 )
+import time
 
 def main_menu():
     while True:
+        print("\033[1;32m Welcome to the Hate Crimes Data Viewer  \n")
+        time.sleep(1)
         print("\n=== Data Viewer Interface ===")
-        print("1. View dataset")
+        print("1. View a preview of the dataset dataset")
         print("2. View visualisation")
         print("3. Search or filter data")
         print("4. Update a data entry")
